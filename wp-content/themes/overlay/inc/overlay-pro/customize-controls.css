@@ -1,0 +1,36 @@
+#customize-controls .control-section-overlay .accordion-section-title:hover,
+#customize-controls .control-section-overlay .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-overlay .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-overlay .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+li#accordion-section-overlay_premium h3.accordion-section-title {
+	background: none !important;
+    padding-bottom: 25px;
+}
+li#accordion-section-overlay_premium h3.accordion-section-title a.button {
+    background-color: #7daee4;
+	color: #FFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    top: -4px;
+}
+li#accordion-section-overlay_premium h3.accordion-section-title:hover a.button {
+	background-color: #006CC9;
+}

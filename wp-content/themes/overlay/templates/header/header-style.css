@@ -1,0 +1,155 @@
+/*--------------------------------------------------------------
+# Header Styling
+--------------------------------------------------------------*/
+.overlay-header-default {
+    text-align: center;
+}
+
+/* ---- Site Header ---- */
+.site-logo-align .site-logo-title {
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+.site-header-inner {
+    padding: 20px 0 35px;
+}
+.site-title {
+    font-size: 56px;
+    line-height: 1.2;
+}
+.site-description {
+    font-size: 14px;
+}
+
+/* -------- Sticky - Logo & Navigation -------- */
+.site-stick-header.stick-header {
+    top: -180px;
+
+    -webkit-transition: top 0.4s ease 0.2s;
+     -moz-transition: top 0.4s ease 0.2s;
+      -ms-transition: top 0.4s ease 0.2s;
+       -o-transition: top 0.4s ease 0.2s;
+          transition: top 0.4s ease 0.2s;
+}
+.site-stick-header.stick-header.stuck {
+    background-color: #FFF;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.14) inset;
+    position: fixed;
+    top: -180px;
+    left: 0;
+
+    width: 100%;
+    z-index: 99999;
+}
+.site-stick-header.stick-header.stuck .site-header-inner {
+    padding: 5px 0 5px;
+}
+.site-stick-header.stick-header.stuck .site-header-inner .site-title {
+    line-height: 1;
+    font-size: 40px;
+}
+.site-stick-header.stick-header.stuck .site-stick-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.site-header.stick-logonav.stick-logonav-botalign .site-stick-header.stick-header.stuck .site-stick-inner {
+    align-items: flex-end;
+}
+.site-stick-header.stick-header.stuck .site-stick-inner > .site-container {
+    flex: 1;
+    text-align: left;
+}
+.site-header.stick-logonav .site-stick-header.stick-header.stuck .site-logo-title,
+.site-header.stick-logonav .site-stick-header.stick-header.stuck .custom-logo-link {
+    display: inline-block;
+    vertical-align: middle;
+}
+.site-stick-header.stick-header.stuck .site-stick-inner > .main-navigation {
+    background-color: #FFF;
+    box-shadow: none;
+    flex: 2;
+    justify-content: flex-end;
+}
+.site-stick-header.stick-header.stuck .site-stick-inner > .main-navigation > .site-container {
+    margin: 0;
+    padding: 0;
+}
+.site-header.stick-logonav .site-stick-header.stick-header.stuck .main-navigation ul {
+    float: right;
+}
+
+.site-stick-header.stick-header.stuck .menu-toggle {
+    box-shadow: none;
+    width: auto;
+    float: right;
+    padding: 12px 48px;
+}
+
+.site-boxed .site-stick-header.stick-header.stuck {
+    left: auto;
+    max-width: 1200px;
+}
+
+/* -------- Sticky - Navigation Only -------- */
+.main-navigation.stick-header {
+    top: -50px;
+
+    -webkit-transition: top 0.4s ease 0.2s;
+     -moz-transition: top 0.4s ease 0.2s;
+      -ms-transition: top 0.4s ease 0.2s;
+       -o-transition: top 0.4s ease 0.2s;
+          transition: top 0.4s ease 0.2s;
+}
+.main-navigation.stick-header.stuck {
+    background-color: #FFF;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.14) inset;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.site-boxed .main-navigation.stick-header.stuck {
+    left: auto;
+    max-width: 1200px;
+}
+
+/* -------- Sticky - Top Bar Only -------- */
+.site-bar.stick-header {
+    top: -50px;
+
+    -webkit-transition: top 0.4s ease 0.2s;
+     -moz-transition: top 0.4s ease 0.2s;
+      -ms-transition: top 0.4s ease 0.2s;
+       -o-transition: top 0.4s ease 0.2s;
+          transition: top 0.4s ease 0.2s;
+}
+.site-bar.stick-header.stuck {
+    background-color: #FFF;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.14) inset;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    padding: 0 0 1px;
+    color: inherit;
+}
+.site-boxed .site-bar.stick-header.stuck {
+    left: auto;
+    max-width: 1200px;
+}
+
+.site-stick-header.stick-header.stuck.animate-sticky-header,
+.main-navigation.stick-header.stuck.animate-sticky-header,
+.site-bar.stick-header.stuck.animate-sticky-header {
+    top: 0;
+}
+body.admin-bar .site-stick-header.stick-header.stuck.animate-sticky-header,
+body.admin-bar .main-navigation.stick-header.stuck.animate-sticky-header,
+body.admin-bar .site-bar.stick-header.stuck.animate-sticky-header {
+    top: 32px;
+}

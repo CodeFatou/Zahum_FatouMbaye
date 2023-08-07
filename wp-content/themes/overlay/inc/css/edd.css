@@ -1,0 +1,362 @@
+/*
+ * Theme Name: Overlay
+ * Easy Digital Downloads styles override
+ */
+/* -- EDD Shop Page -- */
+.edd_downloads_list {
+    margin: 0 -20px;
+}
+.edd_download {
+    
+}
+.edd_download .edd_download_inner {
+    margin: 0 0 30px;
+    padding: 0 20px;
+}
+.edd_download .edd_download_inner .edd_download_image {
+
+}
+.edd_download .edd_download_inner .edd_download_image a,
+.edd_download .edd_download_inner .edd_download_image a {
+    display: block;
+}
+.edd_download .edd_download_inner .edd_download_title {
+    margin: 0 0 5px;
+    padding: 5px 0;
+    font-size: 18px;
+}
+.edd_download .edd_download_inner .edd_download_excerpt {
+    font-size: 0.85em;
+}
+.edd_download .edd_download_inner .edd_download_buy_button {
+    font-size: 0.8em;
+}
+
+/* -- EDD Product Page -- */
+
+
+
+/* -- Checkout & Account Pages -- */
+body.edd-checkout #edd_checkout_wrap .edd_cart_total {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.edd-empty-cart-wrap {
+	text-align: center;
+    min-height: 420px;
+}
+#edd_checkout_wrap span.edd_empty_cart {
+	display: block;
+    font-size: 24px;
+    color: #cacaca;
+    padding: 100px 10px 120px;
+    text-align: center;
+}
+
+ul.taa-account-tabs {
+    text-align: center;
+    padding: 0;
+}
+.taa-tab-content {
+    min-height: 260px;
+    border-radius: 4px;
+}
+#edd_login_form fieldset,
+#edd_register_form fieldset {
+    padding: 0;
+}
+#purchase_history_title,
+#edd_license_keys_title,
+#edd_profile_editor_title,
+#affiliate_area_title {
+    display: none;
+}
+table#edd_user_history,
+table#edd_purchase_receipt,
+table#edd_subscription_receipt,
+table#edd_purchase_receipt_products,
+table#edd_sl_license_keys,
+table#edd_sl_license_upgrades,
+table#edd_sl_license_sites {
+	border-radius: 8px;
+	font-size: 13px;
+}
+table#edd_purchase_receipt {
+    font-size: 16px;
+    font-weight: 300;
+}
+body.page-id-2060 .elementor-shortcode h3 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+}
+#edd_user_history td,
+#edd_user_history th,
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+    border: 0;
+	padding: 8px 10px;
+}
+table#edd_sl_license_keys th,
+#edd_checkout_cart .edd_cart_header_row th {
+    background-color: #f5f5f5;
+}
+fieldset#edd_profile_personal_fieldset,
+fieldset#edd_profile_address_fieldset,
+fieldset#edd_profile_password_fieldset {
+	margin: 0 0 40px;
+    padding: 20px 0;
+    border: 0;
+    border-radius: 8px;
+}
+fieldset#edd_profile_personal_fieldset legend,
+fieldset#edd_profile_address_fieldset legend,
+fieldset#edd_profile_password_fieldset legend {
+    font-size: 15px;
+    font-weight: 600;
+}
+fieldset#edd_profile_submit_fieldset {
+	border: 0;
+}
+p.edd-no-purchases {
+	padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	text-align: center;
+}
+fieldset#edd_profile_submit_fieldset #edd_profile_editor_submit,
+input.edd-invoices-generate-invoice-button.edd_submit.button {
+	min-width: auto !important;
+    margin: -20px 0 15px;
+}
+#edd_profile_editor_form p {
+    margin-bottom: 12px;
+}
+#edd_profile_editor_form label,
+form#edd-invoices label {
+	min-width: 30%;
+}
+#edd_profile_editor_form input,
+#edd_profile_editor_form select,
+form#edd-invoices input,
+form#edd-invoices select {
+	min-width: 69%;
+}
+#edd_profile_editor_form input:hover,
+#edd_profile_editor_form select:hover,
+form#edd-invoices input:hover,
+form#edd-invoices select:hover {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+table#edd_purchase_receipt td,
+table#edd_purchase_receipt th,
+table#edd_purchase_receipt_products td,
+table#edd_purchase_receipt_products th,
+table#edd_sl_license_keys th,
+table#edd_sl_license_keys td,
+table#edd_sl_license_upgrades th,
+table#edd_sl_license_upgrades td,
+table#edd_sl_license_sites th,
+table#edd_sl_license_sites td {
+    padding: 10px 15px;
+}
+tr.edd_license_keys,
+table#edd_purchase_receipt_products th {
+	background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+table#edd_subscription_receipt {
+	font-size: 13px;
+    text-align: left;
+}
+table#edd_subscription_receipt th,
+table#edd_subscription_receipt td {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 12px;
+}
+tr.edd_license_key td,
+span.edd-sl-manage-license-key code {
+	background-color: #eff8fd;
+}
+span.edd_sl_license_price_option {
+	display: block;
+}
+table#edd_purchase_receipt_products li {
+	margin: 15px 0 0;
+}
+a.edd_download_file_link {
+	display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: #ababab;
+    margin: 0;
+    padding: 6px 25px 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFF !important;
+}
+a.edd_download_file_link:hover {
+	background-color: #999;
+}
+form#edd_sl_license_add_site_form {
+	display: block;
+	margin: 0 0 40px;
+	font-size: 13px;
+}
+form#edd_sl_license_add_site_form span {
+	margin: 0 15px 0 0;
+}
+#edd_login_form label, #edd_register_form label {
+    min-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+#edd_login_form .edd-input, #edd_register_form .edd-input {
+    width: 55%;
+}
+p.edd-login-submit {
+	text-align: right;
+    padding: 0 15px;
+}
+p.edd-lost-password {
+	text-align: right;
+	font-size: 12px;
+	padding: 0 15px;
+}
+
+#edd_checkout_form_wrap .edd-payment-icons {
+    margin: 0 0 25px;
+}
+#edd_checkout_cart input.edd-item-quantity {
+    padding: 5px 0 5px 10px;
+    margin: 0 5px 0 0;
+}
+#edd_checkout_cart_form a.edd_cart_remove_item_btn {
+    font-size: 10px;
+    color: #cecece;
+}
+#edd_checkout_form_wrap fieldset {
+    border: 0;
+    padding: 0;
+}
+
+#edd_checkout_wrap .edd_download_purchase_form {
+	margin: 25px 0 0;
+}
+
+body.edd-failed-transaction .entry-content p {
+    padding: 80px 20px 100px;
+}
+
+.edd-cart-added-alert {
+    top: 6px;
+    left: 50%;
+    margin: 0 0 0 -75px;
+    background-color: #005ebd;
+    padding: 4px 15px 5px;
+    color: #e8e8e8;
+    font-size: 14px;
+    pointer-events: none;
+}
+.edd-cart-added-alert .edd-icon {
+    color: #00ab1c;
+}
+
+
+
+/*
+ * Widgets
+ */
+/* -- Cart Widget -- */
+.widget_edd_cart_widget ul.edd-cart li.cart_item.empty {
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.widget_edd_cart_widget .edd_empty_cart {
+    display: block;
+    text-align: center;
+    opacity: 0.6;
+    padding: 15px;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item {
+    position: relative;
+    margin: 0 0 8px;
+    padding: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.widget_edd_cart_widget .edd-cart-number-of-items {
+    border-bottom: 1px double rgba(0, 0, 0, 0.12);
+    font-style: normal;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+.widget_edd_cart_widget .edd-cart-number-of-items .edd-cart-quantity {
+    font-weight: 600;
+    color: #000;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item .edd-cart-item-title {
+    flex: 1;
+    font-size: 14px;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item .edd-cart-item-price {
+    font-size: 14px;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item .edd-remove-from-cart {
+    width: 21px;
+    color: transparent !important;
+    text-align: center;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item .edd-remove-from-cart::before {
+    display: block;
+    font-family: 'Dashicons';
+    content: "\f335";
+    color: red;
+    margin: 0 0 0 4px;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd-cart-item .edd-cart-item-separator {
+    display: none;
+}
+
+.widget_edd_cart_widget ul.edd-cart li.edd_total {
+    border-top: 1px double rgba(0, 0, 0, 0.12);
+    border-bottom: 1px double rgba(0, 0, 0, 0.08);
+    text-align: right;
+    margin: 15px 0;
+    padding: 5px 25px 5px 10px;
+    background: none;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd_checkout {
+    text-align: center;
+}
+.widget_edd_cart_widget ul.edd-cart li.edd_checkout a {
+    background-color: rgba(0, 0, 0, 0.06);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 0;
+    padding: 6px 20px 7px;
+    font-size: 13px;
+    color: inherit;
+}
+
+/* -- Download Details Widget -- */
+.widget_edd_product_details {
+    
+}
+.widget_edd_product_details h3 {
+    font-size: 20px;
+}
+.widget_edd_product_details .edd-meta {
+    font-size: 12px;
+}
+
+/* -- Categories Widget -- */
+/* No Styling Yet */

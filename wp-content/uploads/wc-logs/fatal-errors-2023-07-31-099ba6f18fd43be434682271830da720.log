@@ -1,0 +1,9 @@
+2023-07-31T23:52:49+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\mame/wp-content/themes/astra/inc/theme-update/astra-update-functions.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mame\wp-content\themes\astra\functions.php:42
+Stack trace:
+#0 C:\xampp\htdocs\mame\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\mame\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mame\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mame\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown dans C:\xampp\htdocs\mame\wp-content\themes\astra\functions.php à la ligne 42
+

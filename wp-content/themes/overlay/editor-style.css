@@ -1,0 +1,20 @@
+/*
+Theme Name: Overlay
+Adding editor styling
+*/
+.editor-styles-wrapper {
+    font-size: 16px;
+}
+h1, h2, h3 {
+	margin: 0 0 0.67em;
+}
+h4 {
+	margin: 0 0 0.87em;
+}
+h5, h6 {
+	margin: 0 0 1.4em;
+}
+.wp-block {
+    max-width:	980px;
+    font-size: 16px;
+}

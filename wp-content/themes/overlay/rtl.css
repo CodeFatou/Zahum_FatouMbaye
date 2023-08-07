@@ -1,0 +1,160 @@
+/*
+Theme Name: Overlay
+Adding support for languages written in a Right To Left (RTL)
+*/
+/* ---- Site Top Bar ---- */
+.rtl .site-bar-left {
+	float: right;
+}
+.rtl .site-bar-right {
+	float: left;
+}
+.rtl .site-bar-left > a,
+.rtl .site-bar-left > ul,
+.rtl .site-bar-left > span,
+.rtl .site-bar-left > div,
+.rtl .site-bar-left > button,
+.rtl .site-topbar-switch .site-bar-right > a,
+.rtl .site-topbar-switch .site-bar-right > ul,
+.rtl .site-topbar-switch .site-bar-right > span,
+.rtl .site-topbar-switch .site-bar-right > div,
+.rtl .site-topbar-switch .site-bar-right > button,
+.rtl .site-bottombar-switch .site-bar-right > a,
+.rtl .site-bottombar-switch .site-bar-right > ul,
+.rtl .site-bottombar-switch .site-bar-right > span,
+.rtl .site-bottombar-switch .site-bar-right > div,
+.rtl .site-bottombar-switch .site-bar-right > button {
+    margin: 0 0 0 12px;
+}
+.rtl .site-bar-right > a,
+.rtl .site-bar-right > ul,
+.rtl .site-bar-right > span,
+.rtl .site-bar-right > div,
+.rtl .site-bar-right > button,
+.rtl .site-topbar-switch .site-bar-left > a,
+.rtl .site-topbar-switch .site-bar-left > ul,
+.rtl .site-topbar-switch .site-bar-left > span,
+.rtl .site-topbar-switch .site-bar-left > div,
+.rtl .site-topbar-switch .site-bar-left > button,
+.rtl .site-bottombar-switch .site-bar-left > a,
+.rtl .site-bottombar-switch .site-bar-left > ul,
+.rtl .site-bottombar-switch .site-bar-left > span,
+.rtl .site-bottombar-switch .site-bar-left > div,
+.rtl .site-bottombar-switch .site-bar-left > button {
+    margin: 0 12px 0 0;
+}
+
+/* ---- Main Navigation ---- */
+.rtl .main-navigation li {
+	float: right;
+}
+.rtl .main-navigation.main-nav-full-width #overlay-main-menu,
+.rtl .main-navigation.main-nav-center {
+	float: none;
+}
+
+/* ---------------- Templates ---------------- */
+body.rtl.page-template-right-sidebar.overlay-break-content .content-area,
+body.rtl.page-template-default.overlay-site-full-width-blocked.overlay-break-content.overlay-page-rs .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-rs .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-post-rs .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-search-rs .content-area {
+	margin: 0 0% 0 3%;
+}
+body.rtl.page-template-left-sidebar.overlay-break-content .content-area,
+body.rtl.page-template-default.overlay-site-full-width-blocked.overlay-break-content.overlay-page-ls .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-ls .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-post-ls .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-break-content.overlay-blog-search-ls .content-area {
+	margin: 0 3% 0 0%;
+}
+
+/* ---- Default ---- */
+body.rtl.page-template-default.overlay-page-rs .content-area,
+
+body.rtl.blog.overlay-blog-rs .content-area,
+body.rtl.single.overlay-blog-post-rs .content-area,
+body.rtl.archive.overlay-blog-rs .content-area,
+body.rtl.search-results.overlay-blog-search-rs .content-area,
+
+body.archive.woocommerce.overlay-wc-rs .content-area,
+body.single-product.woocommerce.overlay-wc-product-rs .content-area,
+
+body.rtl.overlay-site-boxed .content-area,
+body.rtl.overlay-site-full-width .content-area,
+body.rtl.page-template-right-sidebar.overlay-site-full-width-blocked.overlay-joined-content .content-area {
+	padding-right: 0;
+	padding-left: 25px;
+}
+body.rtl.page-template-default.overlay-page-rs .widget-area,
+
+body.rtl.blog.overlay-blog-rs .widget-area,
+body.rtl.single.overlay-blog-post-rs .widget-area,
+body.rtl.archive.overlay-blog-rs .widget-area,
+body.rtl.search-results.overlay-blog-search-rs .widget-area,
+
+body.archive.woocommerce.overlay-wc-rs .widget-area,
+body.single-product.woocommerce.overlay-wc-product-rs .widget-area,
+
+body.rtl.overlay-site-boxed .widget-area,
+body.rtl.overlay-site-full-width .widget-area,
+body.rtl.page-template-right-sidebar.overlay-site-full-width-blocked.overlay-joined-content .widget-area {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+/* ---- Left Sidebar ---- */
+body.rtl.page-template-default.overlay-page-ls .content-area,
+
+body.rtl.blog.overlay-blog-ls .content-area,
+body.rtl.single.overlay-blog-post-ls .content-area,
+body.rtl.archive.overlay-blog-ls .content-area,
+body.rtl.search-results.overlay-blog-search-ls .content-area,
+
+body.archive.woocommerce.overlay-wc-ls .content-area,
+body.single-product.woocommerce.overlay-wc-product-ls .content-area,
+
+body.rtl.page-template-left-sidebar .content-area,
+body.rtl.overlay-blog-ls .content-area,
+body.rtl.search-results.overlay-blog-search-ls .content-area,
+body.rtl.overlay-blog-post-ls .content-area,
+body.rtl.overlay-site-full-width-blocked.overlay-joined-content.overlay-page-ls .content-area {
+	padding-left: 0;
+	padding-right: 25px;
+}
+body.rtl.page-template-default.overlay-page-ls .widget-area,
+
+body.rtl.blog.overlay-blog-ls .widget-area,
+body.rtl.single.overlay-blog-post-ls .widget-area,
+body.rtl.archive.overlay-blog-ls .widget-area,
+body.rtl.search-results.overlay-blog-search-ls .widget-area,
+
+body.archive.woocommerce.overlay-wc-ls .widget-area,
+body.single-product.woocommerce.overlay-wc-product-ls .widget-area,
+
+body.rtl.page-template-left-sidebar .widget-area,
+body.rtl.overlay-blog-ls .widget-area,
+body.rtl.search-results.overlay-blog-search-ls .widget-area,
+body.rtl.overlay-blog-post-ls .widget-area,
+body.rtl.overlay-site-full-width-blocked.overlay-joined-content.overlay-page-ls .widget-area {
+	padding-right: 0;
+	padding-left: 25px;
+}
+
+/* ---- Box Shadow - Right---- */
+.rtl .content-area,
+body.rtl.blog.overlay-blog-rs .content-area,
+body.rtl.single.overlay-blog-post-rs .content-area,
+body.rtl.archive.overlay-blog-rs .content-area,
+body.rtl.search-results.overlay-blog-search-rs .content-area {
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+/* ---- Box Shadow - Left---- */
+body.rtl.page-template-left-sidebar .content-area,
+body.rtl.page-template-default.overlay-page-ls .content-area,
+body.rtl.blog.overlay-blog-ls .content-area,
+body.rtl.single.overlay-blog-post-ls .content-area,
+body.rtl.archive.overlay-blog-ls .content-area,
+body.rtl.search-results.overlay-blog-search-ls .content-area {
+	box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}

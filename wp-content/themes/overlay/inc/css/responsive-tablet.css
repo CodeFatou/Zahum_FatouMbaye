@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------
+# Overlay - Responsive Tablet Styling
+--------------------------------------------------------------*/
+.overlay-list.overlay-grid-4 article.post,
+.overlay-list.overlay-grid-4 article.page,
+.overlay-list.overlay-grid-5 article.post,
+.overlay-list.overlay-grid-5 article.page,
+
+body.woocommerce ul.products.columns-4 li.product,
+body.woocommerce ul.products.columns-5 li.product {
+    width: 33.3333%;
+}

@@ -1,0 +1,356 @@
+/*
+Theme Name: Avadanta Firm
+Template: avadanta
+Theme URI: 
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com/
+Description: Firm based wp theme. Avadanta Finance is high quality creative child wordpress theme. fully customizable child theme of avadanata. Perfect for business corporate. This doesn't require any coding knowledge and it's retina ready. If you are a designer, freelance or photographer, search no more. It has a contemporary and clean layout, and its versatility makes it perfect for all kinds of businesses. pre-made designed Homepage with 7 inner sections Featured Slider, teams, testimonials, portfolio, services, about sections,  Hero Content, call to action you can easily customize them. You can easily drag and drop the section position. Theme has dark header menu layout with top info bar with social media icons. The theme suitable for saas application website, architecture, interior design, corporate, agency, business, agency, shop ecommerce, gym, blog, travel agency, construction, law firm, spa salons, industries, Beauty,  furniture, home decor, photography, insurance, app landing page, marketing, it solutions, decoration  and many other websites compatible.You can change everything like Un limited color options, typography fonts, size etc. You can choose your own layout for your page with sidebar or without sidebar or full page content. You can customize navigation bar as you want like background color and menu color with sticky menu option. Unlimited services icons, Translation ready theme, Support any type widget on footer and sidebar. You can change the footer widget column layout. Avadanta Finance is a Pixel perfect and high defination all media screen sizes. Avadanta Theme woocommerce plugin supports you to create an online store with this theme. SEO Friendly and fast loading wordpress theme. Compatible with elementor page builder, gutenberg and so many popular plugins nicely works with avadanta theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/avadanta-firm/ and theme instructions here at https://www.avadantathemes.com/documentation/avadanta-free-theme/
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 5.6
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License: GNU General Public License v2 or later
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+Text Domain: avadanta-firm
+*/
+
+body{
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.srvc .feature-icon {
+    color: #fff !important;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.menu-item-has-children>a:after{
+
+    content: "\f0dd" !important;
+    top: 2px !important;
+}
+
+.post-full .post-content h3{
+
+    word-break: break-word;
+}
+
+.logo-wrap{
+
+    margin-top: -2px;
+    position: absolute;
+    left: 0;
+    background: #000;
+    padding: 34px 50px;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+.avadanta-navigate .nav-menu>.menu-item>a, .avadanta-navigate .nav-menu>.page_item >a{
+
+    color: #fff !important;
+}
+}
+
+@media (min-width: 1280px){
+.is-boxed .header-main {
+    padding: 0px 0px;
+}
+}
+
+@media (min-width: 576px){
+.menu-btns>li a {
+    padding: 29px 22px;
+}
+.avadanta-title {
+    margin-top: -4px;
+}
+
+}
+.banner-s4 .slick-prev, .banner-s4 .slick-next{
+
+    border-radius: 10%;
+}
+
+.menu-btns>li .search {
+    display: none;
+}
+
+.redux-social-media-list li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: auto;
+    list-style: none;
+}
+
+.topbar .container{
+
+	display: flex;
+        max-width: 100%;
+}
+
+.redux-social-media-list.clearfix{
+
+    padding: revert;
+}
+
+.topbar-socials a {
+    color: inherit;
+    padding: 0 12px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    margin-top: 0;
+    transition: .25s;
+    font-size: 14px;
+    height: 40px;
+    transition: .2s ease;
+}
+
+.tb-border-design .topbar-socials a {
+    width: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.topbar-right-content {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+
+.avadanta-logo{
+
+    margin-top: 0 !important;
+}
+
+.topbar-phone, .topbar-email, .topbar-opening-hours {
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    letter-spacing: .01em;
+    font-weight: 500;
+    height: 40px;
+}
+
+.tb-border-design .topbar-phone, 
+.tb-border-design .topbar-email,
+ .tb-border-design .topbar-opening-hours {
+    margin-right: 15px;
+}
+
+.topbar-contact a,
+.topbar-contact span{
+
+	padding-right: 10px;
+    color: #fff;
+}
+
+.topbar-contact i{
+
+	padding-right: 8px;
+    color: #fff;
+}
+
+.avadanta-consult{
+
+	padding: 0px 0 50px !important;
+}
+
+.avadantaconslt-readmre{
+
+    padding: 0!important;
+}
+
+.avadantaconslt-readmre a{
+
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    padding: 11px 20px 11px 20px;
+    
+}
+
+.wgs-sidebar {
+     border: none;
+     padding:15px 20px 36px 25px;
+}
+
+@media (min-width: 992px){
+.wgs-sidebar:not(:last-child) {
+    margin-bottom: 0;
+}
+}
+
+.wp-caption,.wp-caption-text,.bypostauthor ,
+.alignright ,.alignleft,.aligncenter{
+
+}
+
+@media (min-width: 576px){
+.post-content {
+    padding-top: 7px !important;
+}
+}
+
+.header-s1 .header-main{
+
+    background-color: transparent !important;
+    border-bottom: 1px solid #dde3de33;
+}
+
+
+
+@media (max-width: 992px){
+.topbar-right-content {
+
+display: none;
+}
+.banner-content{
+
+    padding-left: 0px !important;
+}
+
+}
+
+.banner-heading {
+    text-transform: capitalize;
+}
+
+.team-content .team-name, .team-content h5{
+
+    color: #fff;
+}
+
+.feature{
+
+border: 1px solid #838383;
+    padding: 20px;
+    background: #0000002b;
+
+}
+
+.add-child-header .header-menus{
+
+padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.add-child-header .header-menus a,
+.add-child-header .header-menus a:hover
+{
+
+    color: #000;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+
+}
+
+
+.avadanta-post-agncy{
+
+    padding: 10px !important;
+}
+
+.avadanta-post-agncy .post-author{
+
+    padding-bottom: 12px;
+}
+
+.post-full .post-author .author-name{
+
+    display: inline-flex;
+            margin-left: 0;
+
+}
+
+.post-author .author-name a{
+
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+.widget_block.widget_search{
+
+    padding-top: 0;
+}
+
+.avadanta-agency-content{
+
+    padding-top: 15px;
+}
+
+.wp-block-tag-cloud a{
+
+background: #f8f9fa;
+    display: inline-block;
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    margin: 5px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    color: #000;
+
+}
+
+.agency-copyright a,
+.agency-copyright{
+
+    color: #fff;
+}
+
+.error-text-avadanta{
+
+    font-size: 60px;
+}
+
+.page-not-found-icon i{
+
+    font-size: 75px;
+}
+
+.error-44::before{
+
+    background: #f2f2f2;
+}
+
+@media (min-width: 992px){
+.footer-s1 {
+    padding-top: 90px;
+    padding-bottom: 18px;
+}
+
+}
+
+.footer-2 .text-right{
+margin:0;   
+    
+}
+
+@media (min-width: 992px){
+.footer-2 .menu {
+    display: inline-block;
+    align-items: right;
+    padding: 0;
+}
+}
+
+.bottom-nav ul li > a {
+    margin-left: 0px;
+    font-size:14px;
+}
+
+.error-44 {
+    background: #f2f2f2 !important;
+}

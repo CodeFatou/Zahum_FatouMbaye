@@ -1,0 +1,257 @@
+/*--------------------------------------------------------------
+# Overlay - Responsive Mobile Styling
+--------------------------------------------------------------*/
+/* ---- Site Header ---- */
+.site-bar-inner,
+.site-bar-left,
+.site-bar-center,
+.site-bar-right {
+    display: block;
+    text-align: center;
+}
+ul.site-header-cart {
+    display: inline-block;
+}
+
+.site-logo-align-inner {
+    flex-direction: column;
+}
+.site-logo-align-inner .custom-logo-link {
+    margin-bottom: 20px;
+}
+.site-logo-align-inner .site-logo-title {
+    padding: 0;
+    text-align: center;
+}
+
+/* ---- Site Search ---- */
+.overlay-search-slide .header-search-block {
+    display: none;
+}
+.show-site-search .overlay-search-slide .header-search-block {
+    display: block;
+    box-shadow: none;
+    border: 0;
+    bottom: 0 !important;
+    position: relative;
+    width: 100%;
+    right: auto;
+    padding: 6px 0;
+    -webkit-transition: unset;
+     -moz-transition: unset;
+      -ms-transition: unset;
+       -o-transition: unset;
+          transition: unset;
+}
+
+.site-bar-right > a,
+.site-bar-right > ul,
+.site-bar-right > span,
+.site-bar-right > div,
+.site-bar-right > button,
+.site-topbar-switch .site-bar-left > a,
+.site-topbar-switch .site-bar-left > ul,
+.site-topbar-switch .site-bar-left > span,
+.site-topbar-switch .site-bar-left > div,
+.site-topbar-switch .site-bar-left > button,
+.site-bottombar-switch .site-bar-left > a,
+.site-bottombar-switch .site-bar-left > ul,
+.site-bottombar-switch .site-bar-left > span,
+.site-bottombar-switch .site-bar-left > div,
+.site-bottombar-switch .site-bar-left > button {
+    margin: 0 6px;
+}
+
+/* ---- Site Content ---- */
+.site-container.site-content .site-content-inner {
+    display: block;
+}
+body.woocommerce .content-area,
+.site-content-inner #primary.content-area,
+body.overlay-page-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-page-ls .site-content .site-content-inner #primary.content-area,
+body.overlay-page-frs .site-content .site-content-inner #primary.content-area,
+body.overlay-page-fls .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-ls .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-post-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-post-ls .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-search-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-blog-search-ls .site-content .site-content-inner #primary.content-area,
+body.overlay-wc-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-wc-ls .site-content .site-content-inner #primary.content-area,
+body.overlay-wc-product-rs .site-content .site-content-inner #primary.content-area,
+body.overlay-wc-product-ls .site-content .site-content-inner #primary.content-area {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    display: block;
+    width: 100%;
+    padding: 0 0 25px;
+    margin: 0 0 25px;
+}
+body.woocommerce .widget-area,
+.site-content-inner #secondary.widget-area,
+body.overlay-page-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-page-ls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-page-frs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-page-fls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-ls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-post-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-post-ls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-search-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-search-ls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-wc-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-wc-ls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-wc-product-rs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-wc-product-ls .site-content .site-content-inner #secondary.widget-area {
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+}
+body.page-template-floating-right-sidebar .site-content .site-content-inner #secondary.widget-area,
+body.page-template-floating-left-sidebar .site-content .site-content-inner #secondary.widget-area,
+body.overlay-page-frs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-page-fls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-frs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-fls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-post-frs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-post-fls .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-search-frs .site-content .site-content-inner #secondary.widget-area,
+body.overlay-blog-search-fls .site-content .site-content-inner #secondary.widget-area {
+    position: relative;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    left: auto;
+}
+.floating-sidebar-control {
+    display: none !important;
+}
+
+body.enable-sticky-widgets .widget-area.widget-area-sticky {
+    height: auto !important;
+}
+body.enable-sticky-widgets .sticky-widget-area.stuck,
+body.enable-sticky-widgets .sticky-surpassed {
+    position: relative !important;
+    top: 0 !important;
+    width: auto !important;
+    bottom: auto !important;
+}
+
+/* ---- Blog ---- */
+.overlay-list.list-grid article.post .post-inner {
+    display: block;
+}
+.overlay-list.list-grid .post-img,
+.overlay-list.list-grid .post-content {
+    width: 100%;
+    padding: 0;
+}
+.overlay-list.list-grid .post-img {
+    margin: 0 0 20px;
+}
+
+.overlay-list.list-grid article.post.blog-grid-block,
+.overlay-list.list-grid article.page.blog-grid-block {
+    width: 50%;
+}
+.overlay-list.list-grid .blog-grid-block .post-img {
+    margin: 0;
+}
+
+/* ---- Site Footer ---- */
+.site-bar-right > div {
+    display: inline-block;
+}
+.overlay-footer-default .site-footer-widgets,
+.overlay-footer-split ul.site-footer-widgets,
+.site-footer .site-footer-inner .site-container,
+.overlay-footer-basic .overlay-footer-basic-left,
+.overlay-footer-basic .overlay-footer-basic-right,
+.overlay-footer-basic .overlay-footer-basic-right .site-bar-text,
+.overlay-footer-basic .overlay-footer-basic-right .site-footer-icons {
+    display: block !important;
+}
+.overlay-footer-default .site-footer-widgets .footer-custom-block,
+.overlay-footer-split ul.site-footer-widgets > li {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 0 25px !important;
+}
+
+.overlay-footer-basic .overlay-footer-basic-left,
+.overlay-footer-basic .overlay-footer-basic-right,
+.site-footer .site-bar .site-bar-inner {
+    text-align: center;
+}
+.overlay-footer-basic .overlay-footer-basic-right .site-bar-text {
+    margin: 15px 0 30px;
+}
+.overlay-footer-basic .site-footer-inner {
+    padding: 20px 0 !important;
+}
+.site-footer .site-bar .site-bar-inner {
+    padding: 12px 0 15px !important;
+    line-height: 1.9;
+}
+.site-footer .site-bar .site-bar-inner .site-bar-text {
+    margin: 0;
+}
+
+/* ---- WooCommerce ---- */
+.site-bar .site-header-cart {
+    padding: 0;
+}
+.woocommerce ul.products li.product {
+    width: 50% !important;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+    max-width: 500px;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+/* ---- Small Device Responsiveness ---- */
+@media only screen and (max-width: 560px) {
+
+    .overlay-list.list-grid article.post.blog-grid-block,
+    .overlay-list.list-grid article.page.blog-grid-block {
+        width: 100%;
+    }
+
+    /* ---- WooCommerce ---- */
+    .woocommerce .woocommerce-result-count,
+    .woocommerce .woocommerce-ordering,
+    .woocommerce .woocommerce-ordering select {
+        float: none;
+        width: 100%;
+    }
+    .woocommerce ul.products li.product {
+        width: 100% !important;
+    }
+
+    .woocommerce #content div.product div.images,
+    .woocommerce div.product div.images,
+    .woocommerce-page #content div.product div.images,
+    .woocommerce-page div.product div.images {
+        width: 100% !important;
+        float: none;
+        margin: 0 0 20px !important;
+    }
+    .woocommerce #content div.product div.summary,
+    .woocommerce div.product div.summary,
+    .woocommerce-page #content div.product div.summary,
+    .woocommerce-page div.product div.summary {
+        width: 100% !important;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    ​.site-bar-left span.site-bar-text {
+        display: block;
+    }
+}

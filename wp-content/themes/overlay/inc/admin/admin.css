@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# Overlay - Admin CSS
+--------------------------------------------------------------*/
+/* ---- Slider ---- */
+#adminmenu li#menu-posts-overlay-slider {
+	display: none;
+}
+body.overlay-enable-olslider #adminmenu li#menu-posts-overlay-slider {
+	display: block;
+}
+
+/* ---- Show / Hide Widget areas depending on selected footer ---- */
+body.overlay-footer-split.widgets-php #overlay-site-footer-custom-1.widgets-sortables,
+body.overlay-footer-split.widgets-php #overlay-site-footer-custom-2.widgets-sortables,
+body.overlay-footer-split.widgets-php #overlay-site-footer-custom-3.widgets-sortables,
+body.overlay-footer-split.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-split.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+body.overlay-footer-split.widgets-php #overlay-site-footer-social,
+
+body.overlay-footer-social.widgets-php #overlay-site-footer-custom-1.widgets-sortables,
+body.overlay-footer-social.widgets-php #overlay-site-footer-custom-2.widgets-sortables,
+body.overlay-footer-social.widgets-php #overlay-site-footer-custom-3.widgets-sortables,
+body.overlay-footer-social.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-social.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+body.overlay-footer-social.widgets-php #overlay-site-footer-split,
+
+body.overlay-footer-default.overlay-footer-custom-cols-1.widgets-php #overlay-site-footer-custom-2.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-1.widgets-php #overlay-site-footer-custom-3.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-1.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-1.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+
+body.overlay-footer-default.overlay-footer-custom-cols-2.widgets-php #overlay-site-footer-custom-3.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-2.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-2.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+
+body.overlay-footer-default.overlay-footer-custom-cols-3.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-default.overlay-footer-custom-cols-3.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+
+body.overlay-footer-default.overlay-footer-custom-cols-4.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+body.overlay-footer-default.widgets-php #overlay-site-footer-split,
+
+body.overlay-footer-none.widgets-php #overlay-site-footer-custom-1.widgets-sortables,
+body.overlay-footer-none.widgets-php #overlay-site-footer-custom-2.widgets-sortables,
+body.overlay-footer-none.widgets-php #overlay-site-footer-custom-3.widgets-sortables,
+body.overlay-footer-none.widgets-php #overlay-site-footer-custom-4.widgets-sortables,
+body.overlay-footer-none.widgets-php #overlay-site-footer-custom-5.widgets-sortables,
+body.overlay-footer-none.widgets-php #overlay-site-footer-split,
+body.overlay-footer-none.widgets-php #overlay-site-footer-social {
+	display: none !important;
+}
+
+body.widgets-php .widgets-holder-wrap {
+	box-shadow: none;
+	border: 0;
+}
+
+body.widgets-php #sidebar-1,
+body.overlay-footer-split.widgets-php #overlay-site-footer-split,
+body.overlay-footer-social.widgets-php #overlay-site-footer-social,
+body.overlay-footer-default.widgets-php #overlay-site-footer-custom-1,
+body.overlay-footer-default.widgets-php #overlay-site-footer-custom-2,
+body.overlay-footer-default.widgets-php #overlay-site-footer-custom-3,
+body.overlay-footer-default.widgets-php #overlay-site-footer-custom-4,
+body.overlay-footer-default.widgets-php #overlay-site-footer-custom-5 {
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* ---- Admin License/Renew Notice ---- */
+.overlay-admin-notice {
+    position: relative;
+    padding: 5px 15px 15px;
+}
+.overlay-admin-notice h4 {
+    margin: 10px 0 8px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.overlay-admin-notice h4 span {
+    margin: 0 0 0 5px;
+}
+.overlay-admin-notice a.overlay-admin-notice-a {
+    display: inline-block;
+    vertical-align: baseline;
+    border-radius: 3px;
+    color: #555;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    font-weight: 400;
+    margin: 0 3px;
+    padding: 4px 7px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+.overlay-admin-notice a.overlay-admin-notice-a:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+.overlay-notice-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #ababab;
+    font-size: 11px;
+    text-decoration: none;
+}
+.overlay-notice-close::after {
+    background: 0 0;
+    color: #72777c;
+    content: "\f153";
+    font: 400 16px/20px dashicons;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    margin: 0 0 0 4px;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.overlay-notice-close:hover::after {
+    color: #c00;
+}
+
+.overlay-admin-notice.overlay-notice-blockons {
+    display: flex;
+    align-items: center;
+}
+.overlay-notice-blockons h4 {
+    color: #222;
+    font-weight: 600;
+}
+.overlay-notice-blockons p {
+    margin: -4px 0 0;
+}
+.overlay-notice-blockons img {
+    margin: 4px 6px -6px -5px;
+}

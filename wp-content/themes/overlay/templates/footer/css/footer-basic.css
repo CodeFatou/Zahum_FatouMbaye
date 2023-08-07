@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Footer Styling
+--------------------------------------------------------------*/
+.site-footer {
+    font-size: 15px;
+}
+.site-footer a {
+    color: inherit;
+}
+.overlay-bgheader-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.site-footer .site-bar {
+    box-shadow: none;
+    background: none;
+}
+.site-footer .site-bar-inner {
+    background: none;
+    padding: 25px 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.site-footer .site-footer-inner .site-container::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.site-footer .site-footer-inner .site-container {
+    display: flex;
+    align-items: center;
+}
+.overlay-footer-basic-left {
+    flex: 1;
+}
+.overlay-footer-basic-right {
+    flex: 1;
+    text-align: right;
+}
+
+.site-footer-icons {
+    display: inline-block;
+    margin: 0 0 0 16px;
+}
+.site-footer-icons .social-icon {
+    font-size: 18px;
+    margin: 0 0 0 16px;
+}
+
+.site-footer .site-bar {
+    font-size: 12px;
+}
+
+.site-bar-inner.site-bottombar-centerall,
+.site-bottombar-centerall .site-bar-left,
+.site-bottombar-centerall .site-bar-right {
+    text-align: center;
+    line-height: 1.9;
+}
+

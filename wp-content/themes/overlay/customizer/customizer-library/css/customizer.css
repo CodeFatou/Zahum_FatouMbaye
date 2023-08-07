@@ -1,0 +1,328 @@
+#sub-accordion-section-title_tagline .description.customize-section-description,
+#sub-accordion-section-overlay-panel-settings-section-site .description.customize-section-description,
+#sub-accordion-section-overlay-panel-settings-section-header .description.customize-section-description,
+#sub-accordion-section-overlay-panel-settings-section-footer .description.customize-section-description,
+#sub-accordion-section-overlay-panel-font-settings-section-header .description.customize-section-description,
+#sub-accordion-section-overlay-panel-font-settings-section-footer .description.customize-section-description,
+#sub-accordion-section-overlay-panel-font-settings-section-title .description.customize-section-description,
+#sub-accordion-section-overlay-panel-settings-section-title .description.customize-section-description,
+#sub-accordion-section-header_image .description.customize-section-description {
+    background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 10px;
+    font-size: 11px;
+    color: #444;
+}
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-blog-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-font-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-edit-text .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-social .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-woocommerce .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-overlay-panel-mobile-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-overlay-section-plugin-support .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-blog-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-font-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-edit-text .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-colors .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-social .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-woocommerce .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-overlay-panel-mobile-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-overlay-section-plugin-support .accordion-section-title:hover:after {
+    color: #FFF !important;
+}
+
+.overlay-remove-panel {
+    display: none !important;
+}
+
+#customize-control-overlay-nav-advanced-set,
+#customize-control-overlay-content-advanced-set,
+#customize-control-overlay-widget-advanced-set,
+#customize-control-overlay-blog-advanced-set,
+#customize-control-overlay-wcproduct-advanced-set,
+#customize-control-overlay-wccat-advanced-set {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #969696;
+    margin: 40px 0 10px;
+}
+.customize-control.customize-control-range input[type="range"] {
+    width: 275px;
+}
+.overlay-customizer-description,
+#customize-control-overlay-uploaded-logo .description,
+#customize-control-overlay-sitemedia-display .description,
+#customize-control-overlay-sitemedia-display-all .description {
+    font-size: 11px;
+    color: #969696;
+}
+
+#customize-control-overlay-body-fonts-size .description,
+#customize-control-overlay-heading-fonts-size .description,
+#customize-control-overlay-blog-grid-cols .description,
+#customize-control-overlay-wc-product-cols .description,
+#customize-control-overlay-wcproduct-thumbnail-cols .description,
+#customize-control-overlay-wc-rel-product-cols .description {
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #6f6f6f;
+}
+#customize-control-overlay-body-fonts-size .description b,
+#customize-control-overlay-heading-fonts-size .description b,
+#customize-control-overlay-wc-product-cols .description b,
+#customize-control-overlay-wcproduct-thumbnail-cols .description b,
+#customize-control-overlay-wc-rel-product-cols .description b {
+    opacity: 0.35;
+    font-size: 19px;
+    font-weight: 200;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+#customize-control-overlay-heading-fonts-size .description b {
+    margin: 0 17px;
+}
+#customize-control-overlay-blog-grid-cols .description,
+#customize-control-overlay-note-text-footer .overlay-customizer-description span b {
+    font-size: 11px;
+}
+#customize-control-overlay-blog-grid-cols .description b,
+#customize-control-overlay-wc-product-cols .description b,
+#customize-control-overlay-wcproduct-thumbnail-cols .description b,
+#customize-control-overlay-wc-rel-product-cols .description b {
+    margin: 0 38px 0 34px;
+}
+.overlay-customizer-description span,
+#customize-control-overlay-notefor-breadcrumb {
+    display: block;
+    margin: 30px 0 0;
+}
+.overlay-customizer-description b {
+    color: #006CC9;
+    margin: 5px 0 0;
+}
+#customize-control-overlay-notefor-breadcrumb b {
+    color: #444;
+}
+#customize-control-overlay-note-text-footer .overlay-customizer-description span b {
+    margin: 0 0 -10px;
+    display: block;
+}
+#customize-control-overlay-note-text-footer .overlay-customizer-description span {
+    font-size: 14px;
+}
+
+#customize-control-overlay-note-mainnav,
+#customize-control-overlay-note-mainnav-mm {
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 0 0 20px;
+    padding: 0 0 15px;
+}
+
+.customize-control-heading {
+    margin: 0;
+}
+h4.overlay-customizer-heading {
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-left: 0;
+    border-right: 0;
+    margin: 20px -12px 12px;
+    padding: 10px 10px 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+#customize-control-overlay-layout-heading-page h4.overlay-customizer-heading,
+#customize-control-overlay-layout-heading-topbar h4.overlay-customizer-heading,
+#customize-control-overlay-heading-settings-footer h4.overlay-customizer-heading,
+#customize-control-overlay-font-heading-header h4.overlay-customizer-heading,
+#customize-control-overlay-font-heading-content h4.overlay-customizer-heading,
+#customize-control-overlay-font-heading-footer h4.overlay-customizer-heading,
+#customize-control-overlay-color-head-content-title h4.overlay-customizer-heading,
+#customize-control-overlay-color-head-header-topbar h4.overlay-customizer-heading,
+#customize-control-overlay-color-footer-head h4.overlay-customizer-heading,
+#customize-control-overlay-onmobile-heading-topbar h4.overlay-customizer-heading,
+#customize-control-overlay-wc-notice-head h4.overlay-customizer-heading {
+    margin: -16px -12px 12px;
+}
+
+#customize-control-overlay-logo-max-width,
+#customize-control-overlay-add-back-tagline,
+#customize-control-overlay-responsive-disable,
+#customize-control-overlay-blog-post-layout,
+#customize-control-overlay-menu-breakat,
+#customize-control-overlay-site-container-width,
+#customize-control-overlay-topbar-switch,
+#customize-control-overlay-header-spacing-bottom,
+#customize-control-overlay-header-nav-style,
+#customize-control-overlay-header-remove-address,
+#customize-control-overlay-header-nav-spacing-bottom,
+#customize-control-overlay-header-nav-spacing-side,
+#customize-control-overlay-header-nav-item-spacing,
+#customize-control-overlay-stick-header-element,
+#customize-control-overlay-stuckheader-logo-title-size,
+#customize-control-overlay-stuckheader-remove-tagline,
+#customize-control-overlay-stuckheader-tagline-size,
+#customize-control-overlay-remove-pagetitles,
+#customize-control-overlay-widget-area-size,
+#customize-control-overlay-remove-bottombar,
+#customize-control-overlay-bottombar-layout,
+#customize-control-overlay-add-botbar-fullcart,
+#customize-control-overlay-remove-botbar-address,
+#customize-control-overlay-siteby-style,
+#customize-control-overlay-siteby-url,
+#customize-control-overlay-blog-list-layout,
+#customize-control-overlay-blog-vert-center-items,
+#customize-control-overlay-blog-list-post-space,
+#customize-control-overlay-blog-list-img-prop,
+#customize-control-overlay-blog-grid-space,
+#customize-control-overlay-blog-list-img-cut,
+#customize-control-overlay-blog-list-title-space,
+#customize-control-overlay-blog-list-font-size,
+#customize-control-overlay-blog-post-fimage,
+#customize-control-overlay-blog-post-remove-auth,
+#customize-control-overlay-blog-post-remove-tags,
+#customize-control-overlay-blog-post-nav-layout,
+#customize-control-overlay-disable-google-font,
+#customize-control-overlay-body-font-lheight,
+#customize-control-overlay-title-fweight,
+#customize-control-overlay-topbar-font-size,
+#customize-control-overlay-nav-uppercase,
+#customize-control-overlay-nav-font-size,
+#customize-control-overlay-page-title-spacing,
+#customize-control-overlay-widget-title-spacing,
+#customize-control-overlay-edit-text-help,
+#customize-control-overlay-edit-text-phone,
+#customize-control-overlay-edit-text-foot-help,
+#customize-control-overlay-edit-text-footer-etxt,
+#customize-control-overlay-edit-text-footer-address,
+#customize-control-overlay-footer-title-uc,
+#customize-control-external_header_video,
+#customize-control-overlay-social-email,
+#customize-control-overlay-social-custom-url,
+#customize-control-overlay-social-add-sideicons,
+#customize-control-overlay-social-let-scroll,
+#customize-control-overlay-side-social-look,
+#customize-control-overlay-side-social-space,
+#customize-control-overlay-content-title-font-color,
+#customize-control-overlay-content-font-color,
+#customize-control-overlay-widget-font-color,
+#customize-control-overlay-header-font-color,
+#customize-control-overlay-nav-font-color,
+#customize-control-overlay-nav-drop-font-color,
+#customize-control-overlay-error-page-style,
+#customize-control-overlay-error-img,
+#customize-control-overlay-error-remove-btn,
+#customize-control-overlay-wc-list-style,
+#customize-control-overlay-wc-product-pp,
+#customize-control-overlay-wc-product-col-space,
+#customize-control-overlay-wc-list-title-height,
+#customize-control-overlay-blog-img-shadow,
+#customize-control-overlay-wc-product-style,
+#customize-control-overlay-wcproduct-remove-galslider,
+#customize-control-overlay-wcproduct-thumbnail-cols,
+#customize-control-overlay-wcproduct-remove-tags,
+#customize-control-overlay-wcproduct-img-sum-size,
+#customize-control-overlay-wc-product-detail-space,
+#customize-control-overlay-wc-product-rel-space,
+#customize-control-overlay-wc-account-style,
+#customize-control-overlay-wc-cartpage-style,
+#customize-control-overlay-wc-checkout-style,
+#customize-control-overlay-onmobile-remove-topbar,
+#customize-control-overlay-onmobile-remove-stickyheader,
+#customize-control-overlay-dd-style {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 0 20px;
+    margin-bottom: 15px;
+}
+#customize-control-custom_logo,
+#customize-control-overlay-site-remove-editlink,
+#customize-control-overlay-break-content,
+#customize-control-overlay-topbar-layout,
+#customize-control-overlay-remove-header-search,
+#customize-control-overlay-align-navdrop-center,
+#customize-control-overlay-header-spacing-top,
+#customize-control-overlay-sitemedia-display-all,
+#customize-control-overlay-sitemedia-fullwidth,
+#customize-control-overlay-site-media-fimage-size,
+#customize-control-overlay-footer-custom-cols,
+#customize-control-overlay-footer-remove-social,
+#customize-control-overlay-footer-icon-size,
+#customize-control-overlay-footer-widget-space,
+#customize-control-overlay-footalign,
+#customize-control-overlay-footer-top-pad,
+#customize-control-overlay-footer-icon-style,
+#customize-control-overlay-footer-social-menuitems-one,
+#customize-control-overlay-bottombar-spacing-top,
+#customize-control-overlay-siteby-prename,
+#customize-control-overlay-blog-grid-cols,
+#customize-control-overlay-blog-search-list-layout,
+#customize-control-overlay-blog-list-title-space,
+#customize-control-overlay-content-spacing-top,
+#customize-control-overlay-boxed-bg-color,
+#customize-control-overlay-footer-title-font-color,
+#customize-control-overlay-footer-social-icons-color,
+#customize-control-overlay-footer-link-color,
+#customize-control-overlay-bottombar-link-color,
+#customize-control-overlay-wc-sale-style,
+#customize-control-overlay-nav-drop-minwidth,
+#customize-control-overlay-bg-image-header-clear {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0 0;
+    margin-top: 12px;
+}
+
+#accordion-section-overlay-panel-settings-breakpoints,
+#accordion-section-overlay-panel-settings-section-pages,
+#accordion-section-overlay-panel-settings-section-nav,
+#accordion-section-overlay-panel-settings-section-header-media,
+#accordion-section-overlay-panel-font-settings-default,
+#accordion-section-overlay-panel-font-settings-section-nav,
+#accordion-section-overlay-panel-settings-section-widget,
+#accordion-section-overlay-panel-font-settings-section-widget,
+#accordion-section-overlay-panel-font-settings-title-tagline,
+#accordion-section-overlay-panel-settings-section-footer,
+#accordion-section-woocommerce_checkout,
+#accordion-section-colors,
+#accordion-section-overlay-panel-mobile-section-extras,
+#accordion-section-overlay-woocommerce-checkout-settings {
+    margin-bottom: 8px;
+}
+
+/* -- Range Value Display -- */
+.customize-control.customize-control-range .description {
+    font-style: normal;
+    text-transform: none;
+    font-size: 11px;
+    color: #b9b9b9 !important;
+    display: flex;
+}
+.customize-control.customize-control-range .description span {
+    flex: 1;
+    text-align: center;
+}
+.customize-control.customize-control-range .description span i {
+    font-style: normal;
+}
+.customize-control.customize-control-range:hover .description span {
+    color: #222 !important;
+}
+.customize-control.customize-control-range .description span.fst,
+.customize-control.customize-control-range .description span.lst {
+    max-width: 25px;
+    color: #b9b9b9 !important;
+}
